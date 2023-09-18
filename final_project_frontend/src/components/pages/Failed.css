@@ -1,0 +1,70 @@
+
+.failed{
+    width: 100vw;
+    height: 100vh;
+    animation: coverBlack 1.8s ease-in-out 1s forwards;
+}
+.failed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .failed-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    position: relative; /* Add relative positioning */
+  }
+  
+  .failed-icon {
+    font-size: 80px;
+    background-color: black; /* Green background color */
+    color: #fff; /* White text color */
+    width: 150px; /* Set the width and height for a circular shape */
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Create a circular shape */
+    margin-bottom: 10px; /* Add some space between the icon and text */
+    animation: expandRed 1.5s ease-in-out 1s forwards; /* Animation */
+  }
+  
+  .text-overlay {
+    color: #fff;
+    position: absolute; /* Set absolute positioning for the text */
+    top: 55%; /* Place it below the icon */
+    left: 50%; /* Place it at the horizontal center */
+    transform: translateX(-50%); /* Center horizontally */
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s ease-in-out 2s forwards; /* Animation to fade in */
+  }
+  
+  @keyframes expandRed {
+    0% {
+      width: 150px;
+      height: 150px;
+    }
+    50% {
+        border-radius: 50%;
+    }
+    75% {
+        border-radius: 50%;
+    }
+    95%{
+        border-radius: 50%;
+    }
+    99%{
+        border-radius: 50%;
+    }
+    100% {
+      width: 100vw; 
+      height: 100vh; 
+      opacity: 1;
+      border-radius: 0%;
+    }
+  }
+  

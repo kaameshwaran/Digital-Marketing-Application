@@ -1,0 +1,104 @@
+.form-container {
+    margin: 0 auto;
+    padding: 110px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../../public/images/adrien-olichon-gOdavfpH-3s-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .form-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: gray;
+    border-radius: 5px;
+    padding : 20px 20px;
+  }
+  
+  .form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn1 {
+    background-color: #242424;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    transition: all 0.8s ease-out;
+    background-color: gray;
+    color: #fff;
+    transition: 250ms;
+  }
+  
+  .btn1-submit {
+    background-color: #005707;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn1-submit:hover {
+    transition: all 0.8s ease-out;
+    background-color: #106c5e91;
+    color: #fff;
+    transition: 250ms;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .btn-remove {
+    background-color: #e74c3c;
+    color: #fff;
+    border-color: #fff;
+    border-bottom: 3px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-remove:hover {
+    background-color: #c0392b;
+  }
+  
